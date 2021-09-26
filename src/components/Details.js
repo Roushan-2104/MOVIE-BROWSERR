@@ -53,15 +53,13 @@ export default function Details() {
                   >
                     {movieDetails.original_title}
                   </h1>
-                  {movieDetails.tagline && (
-                    <p className="mt-3">
-                      <blockquote className="blockquote text-warning">
-                        <q>
-                          <em>{movieDetails.tagline}</em>
-                        </q>
-                      </blockquote>
-                    </p>
-                  )}
+
+                  <p className="mt-3 blockquote text-warning">
+                    <q>
+                      <em>{movieDetails.tagline}</em>
+                    </q>
+                  </p>
+
                   {movieDetails.overview && (
                     <p className="lead fs-3 mt-4">{movieDetails.overview}</p>
                   )}
