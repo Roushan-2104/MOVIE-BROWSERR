@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MOVIE-BROWSERR/static/css/main.2e26f21d.chunk.css",
+    "main.js": "/MOVIE-BROWSERR/static/js/main.44781c87.chunk.js",
+    "main.js.map": "/MOVIE-BROWSERR/static/js/main.44781c87.chunk.js.map",
+    "runtime-main.js": "/MOVIE-BROWSERR/static/js/runtime-main.63bd49c6.js",
+    "runtime-main.js.map": "/MOVIE-BROWSERR/static/js/runtime-main.63bd49c6.js.map",
+    "static/js/2.eb7932c1.chunk.js": "/MOVIE-BROWSERR/static/js/2.eb7932c1.chunk.js",
+    "static/js/2.eb7932c1.chunk.js.map": "/MOVIE-BROWSERR/static/js/2.eb7932c1.chunk.js.map",
+    "static/js/3.97fb42c9.chunk.js": "/MOVIE-BROWSERR/static/js/3.97fb42c9.chunk.js",
+    "static/js/3.97fb42c9.chunk.js.map": "/MOVIE-BROWSERR/static/js/3.97fb42c9.chunk.js.map",
+    "index.html": "/MOVIE-BROWSERR/index.html",
+    "static/css/main.2e26f21d.chunk.css.map": "/MOVIE-BROWSERR/static/css/main.2e26f21d.chunk.css.map",
+    "static/js/2.eb7932c1.chunk.js.LICENSE.txt": "/MOVIE-BROWSERR/static/js/2.eb7932c1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63bd49c6.js",
+    "static/js/2.eb7932c1.chunk.js",
+    "static/css/main.2e26f21d.chunk.css",
+    "static/js/main.44781c87.chunk.js"
+  ]
+}
