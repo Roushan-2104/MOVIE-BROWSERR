@@ -5,7 +5,7 @@ import '../App.css'
 export default function Navbar({setSearchText}) {
   const history = useHistory();
   const updateSearch = (e)=>{
-    history.push('/search')
+    history.push('/MOVIE-BROWSERR/search')
     setSearchText(e.target.value)
   }
   return (
