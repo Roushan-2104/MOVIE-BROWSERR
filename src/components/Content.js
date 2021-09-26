@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Content({ movies }) {
   const poster_url = `https://image.tmdb.org/t/p/w500${movies.poster_path}`;
-  const details = `/MOVIE-BROWSERR/movies/${movies.id}`;
+  const details = `/movies/${movies.id}`;
   
   return (
     <div>

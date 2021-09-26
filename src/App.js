@@ -27,14 +27,14 @@ function App() {
     <div>
       <Navbar searchText={searchText} setSearchText={setSearchText} />
       <Switch>
-        <Route path="/MOVIE-BROWSERR" exact>
+        <Route path="/" exact>
           <Home />
         </Route>
-        <Route path="/MOVIE-BROWSERR/trend" component={Trending} />
-        <Route path="/MOVIE-BROWSERR/search">
+        <Route path="/trend" component={Trending} />
+        <Route path="/search">
           <SearchView keyword={searchText} searchResults={searchResults} />
         </Route>
-        <Route path="/MOVIE-BROWSERR/movies/:id">
+        <Route path="/movies/:id">
           <Details keyword={searchText} />
         </Route>
         <Route component={Error} />
