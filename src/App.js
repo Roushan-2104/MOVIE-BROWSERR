@@ -34,7 +34,7 @@ function App() {
         <Route path="/MOVIE-BROWSERR/search">
           <SearchView keyword={searchText} searchResults={searchResults} />
         </Route>
-        <Route path="/movies/:id">
+        <Route path="/MOVIE-BROWSERR/movies/:id">
           <Details keyword={searchText} />
         </Route>
         <Route component={Error} />
