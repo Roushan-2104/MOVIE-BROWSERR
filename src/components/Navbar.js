@@ -12,7 +12,7 @@ export default function Navbar({setSearchText}) {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          <Link className="navbar-brand fw-bold fs-4" to="/MOVIE-BROWSERR">
+          <Link className="navbar-brand fw-bold fs-4" to="/">
             Movie Browser
           </Link>
           <button
@@ -29,17 +29,17 @@ export default function Navbar({setSearchText}) {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/MOVIE-BROWSERR">
+                <Link className="nav-link active" aria-current="page" to="/">
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link DISABLED" to="/MOVIE-BROWSERR">
+                <Link className="nav-link DISABLED" to="/">
                   About
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/MOVIE-BROWSERR/trend">
+                <Link className="nav-link" to="/trend">
                   Trending
                 </Link>
               </li>
