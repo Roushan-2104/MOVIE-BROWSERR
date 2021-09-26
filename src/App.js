@@ -27,7 +27,7 @@ function App() {
     <div>
       <Navbar searchText={searchText} setSearchText={setSearchText} />
       <Switch>
-        <Route path="/" exact>
+        <Route path="/MOVIE-BROWSERR" exact>
           <Home />
         </Route>
         <Route path="/trend" component={Trending} />
