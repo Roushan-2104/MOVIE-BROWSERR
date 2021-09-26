@@ -39,7 +39,7 @@ export default function Navbar({setSearchText}) {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/trend">
+                <Link className="nav-link" to="/MOVIE-BROWSERR/trend">
                   Trending
                 </Link>
               </li>

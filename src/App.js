@@ -30,8 +30,8 @@ function App() {
         <Route path="/MOVIE-BROWSERR" exact>
           <Home />
         </Route>
-        <Route path="/trend" component={Trending} />
-        <Route path="/search">
+        <Route path="/MOVIE-BROWSERR/trend" component={Trending} />
+        <Route path="/MOVIE-BROWSERR/search">
           <SearchView keyword={searchText} searchResults={searchResults} />
         </Route>
         <Route path="/movies/:id">
