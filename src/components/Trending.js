@@ -18,7 +18,7 @@ export default function Trending() {
             <p className="card-text">
             lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
             </p>
-            <a href="/" className="btn btn-primary">
+            <a href="/" className="btn btn-primary disabled">
               Nothing HERE
             </a>
           </div>
