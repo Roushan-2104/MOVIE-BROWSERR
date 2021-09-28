@@ -6,7 +6,8 @@ import Trending from "./components/Trending";
 import { Route, Switch } from "react-router-dom";
 import SearchView from "./components/SearchView";
 import Details from "./components/Details";
-import Error from './components/error';
+import Error from "./components/error";
+import Footer from './components/Footer';
 
 function App() {
   const [searchResults, setSearchResults] = useState([]);
@@ -39,6 +40,7 @@ function App() {
         </Route>
         <Route component={Error} />
       </Switch>
+      <Footer />
     </div>
   );
 }
